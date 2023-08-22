@@ -7,7 +7,6 @@ function volume_sphere() {
 
     if (!isNaN(radius)) {
         let volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
-        volumeInput.value = volume.toFixed(2);
     } else {
         volumeInput.value = "Invalid input";
     }
